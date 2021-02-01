@@ -1,0 +1,14 @@
+SELECT *
+FROM ((sensors
+INNER JOIN device ON sensors.deviceId = device.id)
+INNER JOIN client ON sensors.clientId = client.id)
+
+
+
+SELECT created, value, name, location, description
+FROM ((sensors
+INNER JOIN device ON sensors.deviceId = device.id)
+INNER JOIN client ON sensors.clientId = client.id)
+
+
+SELECT created, value, deviceId FROM sensors WHERE deviceId = 2

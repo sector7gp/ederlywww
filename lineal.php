@@ -13,7 +13,7 @@
    //print_r($deviceId[$key].'<br>');
    
    switch($deviceId[$key]){
-    case "1F15C": 
+    case "1F015C": 
     $barColor[$key] = 'red';
     $description[$key] = 'Puerta-Serv';
     break;
@@ -29,7 +29,7 @@
     $barColor[$key] = 'green';
     $description[$key] = 'Taller';
     break;
-    case "24F28": 
+    case "24F208": 
     $barColor[$key] = 'orange';
     $description[$key] = 'Living';
     break;
